@@ -1,4 +1,61 @@
-node_modules
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# Generated files/directories
+target
+build
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# gradle
+.gradle
+gradle-app.setting
+
+# Eclipse
+.settings
+.classpath
+.project
+
+# modules folder in node
+node_modules/
+
+# logs
+*.log
+
+# project specific
 certs/*
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
@@ -6,4 +63,3 @@ certs/*
 Session.vim
 .netrwhist
 *~
-npm-debug.log
