@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git://github.com/mqttjs/MQTT.js.git"
   },
-  "main": "mqtt.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "pretest": "npm run check-style",
